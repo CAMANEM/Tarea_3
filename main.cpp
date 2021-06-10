@@ -1,6 +1,12 @@
 #include <iostream>
+#include "Cyclic Redundancy/Sender.h"
+#include "Cyclic Redundancy/Receiver.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    Sender hp = Sender();
+    Receiver test = Receiver();
+    test.operation();
+    //hp.operation();
+
     return 0;
 }
