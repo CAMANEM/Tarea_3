@@ -1,12 +1,9 @@
 #include <iostream>
-#include "Cyclic Redundancy/Sender.h"
-#include "Cyclic Redundancy/Receiver.h"
+#include <OddParityExample.h>
 
 int main() {
-    Sender hp = Sender();
-    Receiver test = Receiver();
-    test.operation();
-    //hp.operation();
-
+    std::cout << "Hello, World!" << std::endl;
+    OddParityExample oddParityExample = OddParityExample();
+    oddParityExample.sender(2);
     return 0;
 }
