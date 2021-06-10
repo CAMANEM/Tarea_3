@@ -1,13 +1,9 @@
-//
-// Created by fernando on 9/6/21.
-//
+#include <iostream>
+#include <OddParityExample.h>
 
-#include <L_Checker.h>
-
-int main(){
-
-    L_Checker hp = L_Checker();
-    hp.Init();
-
+int main() {
+    std::cout << "Hello, World!" << std::endl;
+    OddParityExample oddParityExample = OddParityExample();
+    oddParityExample.sender(2);
     return 0;
 }
